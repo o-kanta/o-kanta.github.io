@@ -1,0 +1,19 @@
+@charset "utf-8";
+.newyork img {
+  margin-left: 250px;
+  width: 45%;
+}
+.newyork p {
+    position: absolute;
+    right: 0;
+}
+.wasinton {
+  position: absolute;
+  right: 0;
+  width: calc((100% - 250px) / 2);
+}
+/* p {
+  position: absolute;
+  list-style: none;
+  margin-left: 250px;
+} */
