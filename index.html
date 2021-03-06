@@ -5,104 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="index.css" />
-    <title>TRAVEL THE WORLD</title>
+    <title>Home Page</title>
+    <script src="style.js"></script>
   </head>
 
   <body>
-    <div class="line-0a"></div>
-    <div class="line-0b"></div>
-    <div class="line-0c"></div>
-    <div class="line-0d"></div>
-
-    <!-- line -->
-    <nav>
-      <div id="nav-drawer">
-        <div id="nav-content-1">
-          <a href="#1">About</a>
-          <a href="myprofile.html">Profile</a>
-          <a href="#3">Reference</a>
-          <!-- <li><a href="#4"></a></li> -->
-          <div id="nav-content-2">
-            <a href="https://www.instagram.com/?hl=ja">instagram</a>
-            <a href="https://twitter.com/home">Twitter</a>
-          </div>
-          <!-- nav-content-2 -->
-        </div>
-        <!-- nav-content-1 -->
-      </div>
-      <!-- nav-drawer -->
-      <!-- <div class="sumafo">
-        <div class="line-s0"></div>
-        <div class="line-s1"></div>
-        <div class="line-s2"></div>
-        <div class="line-s3"></div>
-        <div class="srcle"></div>
-      </div> -->
-      <!-- sumafo -->
-    </nav>
-    <!-- nav -->
-
+    <!-- header -->
     <header>
-      <h1>
-        海外いきたいなぁ
-      </h1>
-      <h2>〜カネためろ〜</h2>
+      <div class="name">OK</div>
+      <button id="open_menu" onclick="navOpen()">
+        <div class="hum_line1"></div>
+        <div class="hum_line2"></div>
+        <div class="hum_line3"></div>
+      </button>
     </header>
-    <!--header-->
-    <main>
-      <p class="tanbun">
-        I like to go abroad.<br />
-        You will want to go abroad.<br />
-        You will be interested in traveling abroad.<br />
-      </p>
-    </main>
+    <!-- /header -->
     <!-- main -->
-    <section>
-      <div class="line-1"></div>
-      <div class="box">
-        <div class="usuigray"></div>
-        <div class="back"></div>
-        <div class="gray"></div>
-        <div class="back"></div>
-        <div class="back"></div>
-        <div class="murasaki">
-          <a class="button" href="america.html"
-            ><p>I want to go to America.</p></a
-          >
-        </div>
-        <div class="back"></div>
-        <div class="koigray"></div>
-        <div class="gray"></div>
-        <div class="back"></div>
-        <div class="usuigray"></div>
-        <div class="back"></div>
-        <div class="back"></div>
-        <div class="koigray"></div>
-        <div class="back"></div>
-        <div class="hukamidori">
-          <a class="button" href="#"><p>We live in Japan.</p></a>
-        </div>
-        <div class="kurenai">
-          <a class="button" href="#"><p>He came from Korea.</p></a>
-        </div>
-        <div class="back"></div>
-        <div class="sibuiiro">
-          <a class="button" href="singapore.html"
-            ><p>I have been to Singapore.</p></a
-          >
-        </div>
-        <div class="white"></div>
-        <div class="white"></div>
-        <div class="gray"></div>
-        <div class="white"></div>
-        <div class="usuigray"></div>
-      </div>
-      <!-- box -->
-      <div class="line-2"></div>
-    </section>
-    <!-- section -->
-
-    <footer></footer>
+    <main>
+      <div class="polygon1"></div>
+      <div class="polygon2"></div>
+      <div class="title">OKUGAWA KANTA</div>
+    </main>
+    <!-- /main -->
     <!-- footer -->
+    <footer>
+      <div class="copyright"><p>copyright</p></div>
+    </footer>
+    <!-- /footer -->
+
+    <nav id="nav_height">
+      <div class="name">OK</div>
+
+      <button id="close_menu" onclick="navClose()">
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </button>
+
+      <ul class="menu_list">
+        <li><a href="">Home</a></li>
+        <li><div></div></li>
+        <li><a href="">Profile</a></li>
+        <li><a href="">Product</a></li>
+        <li><a href="">Account</a></li>
+      </ul>
+    </nav>
   </body>
 </html>

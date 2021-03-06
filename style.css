@@ -4,100 +4,12 @@
   padding: 0;
   margin: 0;
 }
-body {
-  /* background-color: #8f8f8f; */
+/* body {
   background-color: #dddddd;
   height: 100%;
   font-family: Georgia, "ＭＳ Ｐゴシック", sans-serif;
-}
+} */
 img {
   border: hidden;
   margin: 0;
-}
-.line-0a {
-  position: absolute;
-  background: white;
-  width: 2px;
-  height: 2800px;
-  left: 250px;
-}
-/* nav */
-#nav-drawer {
-  z-index: 1;
-  position: fixed;
-  left: 3%;
-  top: 80px;
-}
-#nav-drawer a {
-  color: black;
-  text-decoration: none;
-}
-#nav-drawer a:hover {
-  color: white;
-  transition: 0.3s;
-}
-#nav-content-1 {
-  position: absolute;
-  font-size: 40px;
-}
-#nav-content-2 {
-  font-size: 25px;
-}
-/* .sumafo {
-  position: fixed;
-  top: 400px;
-  left: 3%;
-}
-.line-s0 {
-  position: absolute;
-  background-color: black;
-  width: 15px;
-  height: 200px;
-}
-.line-s1 {
-  position: absolute;
-  background-color: black;
-  width: 15px;
-  height: 200px;
-  left: 140px;
-}
-.line-s2 {
-  position: absolute;
-  background-color: black;
-  height: 15px;
-  width: 140px;
-}
-.line-s3 {
-  position: absolute;
-  background-color: black;
-  height: 40px;
-  width: 155px;
-  top: 200px;
-}
-.srcle {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: white;
-  top: 210px;
-  left: 67.5px;
-} */
-/* header */
-header {
-  position: relative;
-  z-index: 100;
-  margin-left: 250px;
-}
-header h1 {
-  text-align: center;
-  font-size: 140px;
-}
-header h2 {
-  font-size: 30px;
-  margin-left: 5%;
-}
-/* footer */
-footer ul {
-  list-style: none;
 }
