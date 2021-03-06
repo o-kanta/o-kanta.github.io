@@ -27,6 +27,19 @@ a:active {
   z-index: 1;
   height: 43px;
 }
+/* main */
+h1 {
+  position: absolute;
+  width: 200px;
+  left: 45%;
+  top: 150px;
+  font-weight: bold;
+  font-size: 48px;
+  display: flex;
+  text-align: center;
+
+  color: #000000;
+}
 
 /* menu */
 button {
