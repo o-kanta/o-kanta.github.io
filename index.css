@@ -13,19 +13,14 @@ body {
   left: 834px;
   top: 450px;
 
-  font-style: normal;
-  font-weight: normal;
   font-size: 48px;
   line-height: 56px;
   display: flex;
   align-items: center;
-  text-align: center;
+  text-align: left;
 
   color: #000000;
 }
-
-
-
 /* footer */
 /* copyright */
 .copyright {
