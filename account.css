@@ -1,7 +1,6 @@
 @charset "utf-8";
-main {
-  align-items: center;
-}
+
+/* main */
 .account_list {
   top: 40%;
   left: 20%;
@@ -9,7 +8,6 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
-
 .account_link {
   text-align: center;
   vertical-align: middle;
@@ -19,5 +17,5 @@ main {
 }
 .account_list img {
   max-height: 120px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }

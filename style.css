@@ -27,20 +27,6 @@ a:active {
   z-index: 1;
   height: 43px;
 }
-/* main */
-h1 {
-  position: absolute;
-  width: 200px;
-  left: 45%;
-  top: 150px;
-  font-weight: bold;
-  font-size: 48px;
-  display: flex;
-  text-align: center;
-
-  color: #000000;
-}
-
 /* menu */
 button {
   border: 0 none;
@@ -95,6 +81,13 @@ button {
   background-color: #000000;
   transform: rotate(-45deg);
 }
+/* main */
+h1.page_title {
+  position: absolute;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+}
 /* nav */
 .menu_list {
   position: absolute;
@@ -120,4 +113,19 @@ nav {
   z-index: 88888;
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+/* footer */
+/* copyright */
+.copyright {
+  position: fixed;
+  top: 90%;
+  left: 45%;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 56px;
+  text-align: center;
+
+  color: #000000;
 }
