@@ -2,6 +2,7 @@
 html,
 body {
   height: 100vh;
+  overflow: hidden;
 }
 
 /* main */
@@ -18,7 +19,28 @@ body {
   display: flex;
   align-items: center;
   text-align: left;
-
-  color: #000000;
 }
-
+.polygon1 {
+  /* Polygon 1 */
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  top: -300px;
+  border-left: 400px solid transparent;
+  border-right: 400px solid transparent;
+  border-bottom: 1000px solid #e09eff;
+  transform: rotate(45deg);
+  z-index: 1;
+}
+.polygon2 {
+  /* Polygon 1 */
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  top: -190px;
+  left: 550px;
+  border-left: 400px solid transparent;
+  border-right: 400px solid transparent;
+  border-bottom: 1000px solid #e7ff88;
+  transform: rotate(-40deg);
+}

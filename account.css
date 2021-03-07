@@ -2,20 +2,17 @@
 
 /* main */
 .account_list {
-  top: 40%;
-  left: 20%;
-  position: absolute;
   display: flex;
+  margin: 5em 10em;
+  justify-content: space-between;
   flex-wrap: wrap;
-}
-.account_link {
   text-align: center;
-  vertical-align: middle;
-}
-.account_list a {
-  margin: 0px 30px;
 }
 .account_list img {
   max-height: 120px;
-  margin-bottom: 25px;
+  min-width: 120px;
+  margin-bottom: 1.5em;
+}
+.account_box {
+  padding: 0px 30px 0px 30px;
 }

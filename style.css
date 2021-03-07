@@ -6,6 +6,10 @@
 }
 body {
   font-family: sans-serif;
+  min-height: 100vh;
+  position: relative; /*←相対位置*/
+  padding-bottom: 120px; /*←footerの高さ*/
+  box-sizing: border-box; /*←全て含めてmin-height:100vhに*/
 }
 img {
   border: hidden;
@@ -21,7 +25,7 @@ a:active {
 /* header */
 /* OK */
 .name {
-  position: absolute;
+  position: fixed;
   top: 53px;
   left: 3%;
   z-index: 1;
@@ -33,7 +37,7 @@ button {
   cursor: pointer;
   width: 30px;
   height: 30px;
-  background-color: white;
+  background-color: transparent;
 }
 #open_menu {
   position: absolute;
@@ -82,11 +86,14 @@ button {
   transform: rotate(-45deg);
 }
 /* main */
-h1.page_title {
-  position: absolute;
-  font-weight: bold;
-  font-size: 48px;
+main {
+  position: relative;
   text-align: center;
+  padding: 150px 50px 0px 50px;
+}
+.page_title {
+  margin: 0 auto;
+  font-size: 48px;
 }
 /* nav */
 .menu_list {
@@ -100,6 +107,11 @@ h1.page_title {
 .menu_list li {
   vertical-align: top;
   margin: 35px 0;
+  font-size: 24px;
+}
+.home_link {
+  font-size: 30px;
+  padding-bottom: 30px;
 }
 nav {
   position: fixed;
@@ -117,15 +129,14 @@ nav {
 /* footer */
 /* copyright */
 .copyright {
-  position: fixed;
-  top: 90%;
-  left: 45%;
-
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
+  width: 100%;
+  font-size: 20px;
   line-height: 56px;
-  text-align: center;
+  text-align: right;
 
-  color: #000000;
+  position: absolute; /*←絶対位置*/
+  bottom: 0; /*下に固定*/
+}
+.copyright p {
+  padding-right: 15px;
 }
