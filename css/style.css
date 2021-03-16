@@ -89,11 +89,11 @@ button {
 }
 /* main */
 main {
-  margin: 150px 20% 0px 20%;
+  margin: 150px 15% 0px 15%;
   padding: 5px;
 }
 .main_header {
-  margin: 3em auto;
+  margin: 3em auto 3.5em;
 }
 /* nav */
 .menu_list {
