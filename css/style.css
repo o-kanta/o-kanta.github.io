@@ -7,13 +7,13 @@
 body {
   font-family: sans-serif;
   min-height: 100vh;
-  position: relative; /*←相対位置*/
-  padding-bottom: 120px; /*←footerの高さ*/
-  box-sizing: border-box; /*←全て含めてmin-height:100vhに*/
+  position: relative; /*相対位置*/
+  padding-bottom: 120px; /*footerの高さ*/
+  box-sizing: border-box; /*全て含めてmin-height:100vhに*/
 }
 #wrap {
   height: 100vh;
-  background-color: white;
+  background-color: #ffffff;
 }
 img {
   border: hidden;
@@ -27,62 +27,60 @@ a:active {
   text-decoration: none;
 }
 /* header */
-/* OK */
-.name {
+.home_link {
   position: fixed;
   top: 53px;
   left: 3%;
   z-index: 1;
   height: 43px;
 }
-/* menu */
 button {
-  border: 0 none;
-  cursor: pointer;
-  width: 30px;
-  height: 30px;
-  background-color: transparent;
-}
-#open_menu {
-  position: absolute;
   top: 60px;
   right: 3%;
+  border: 0 none;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+}
+/* menu button line */
+#open_menu {
+  position: fixed;
   z-index: 1111111111;
   display: inline-block;
+  background-color: white;
 }
 #close_menu {
   position: absolute;
-  top: 60px;
-  right: 3%;
   z-index: -1111111111;
   display: inline-block;
 }
 #open_menu .hum_line1 {
   width: calc(100% - 1px);
   height: 1px;
-  margin-bottom: 5px;
+  margin: 8px 0px;
   background-color: #000000;
 }
 #open_menu .hum_line2 {
   width: calc(100% - 1px);
   height: 1px;
-  margin-bottom: 5px;
+  margin: 8px 0px;
   background-color: #000000;
 }
 #open_menu .hum_line3 {
   width: calc(100% - 1px);
   height: 1px;
-  margin-bottom: 5px;
+  margin: 8px 0px;
   background-color: #000000;
 }
-#close_menu .line1 {
+.cross_line1 {
   width: calc(100% - 1px);
   height: 1px;
   z-index: 11111111111;
   background-color: #000000;
   transform: rotate(45deg);
 }
-#close_menu .line2 {
+.cross_line2 {
   width: calc(100% - 1px);
   height: 1px;
   z-index: 11111111111;
@@ -91,29 +89,25 @@ button {
 }
 /* main */
 main {
-  position: relative;
-  text-align: center;
-  padding: 150px 50px 0px 50px;
+  margin: 150px 20% 0px 20%;
+  padding: 5px;
 }
-.page_title {
-  margin: 0 auto;
-  font-size: 48px;
+.main_header {
+  margin: 3em auto;
 }
 /* nav */
 .menu_list {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 200px;
   transform: translate(-50%, -50%);
   list-style: none;
-  text-align: center;
+  text-align: left;
 }
 .menu_list li {
   vertical-align: top;
-  margin-bottom: 35px;
-  font-size: 24px;
-}
-.home_link {
+  margin: 35px 0;
   font-size: 30px;
 }
 nav {
@@ -127,8 +121,16 @@ nav {
   transition: 0.5s;
   z-index: 88888;
 }
+nav a {
+  transition-duration: 0.2s;
+}
+nav .menu_list a:hover {
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  color: #7a53ee;
+}
+
 /* footer */
-/* copyright */
 .copyright {
   width: 100%;
   font-size: 20px;
@@ -140,3 +142,8 @@ nav {
 .copyright p {
   padding-right: 15px;
 }
+/* /footer */
+
+/* media query */
+/* @media (orientation: landscape) { /*横幅
+} */

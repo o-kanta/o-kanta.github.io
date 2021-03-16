@@ -2,9 +2,14 @@
 html,
 body {
   height: 100vh;
-  overflow: hidden;
 }
-
+#wrap {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  min-height: 100vh;
+}
 /* main */
 /* OKUGAWA KANTA */
 .title {
@@ -16,6 +21,7 @@ body {
   margin-top: 3.5em;
   padding-right: 2em;
 }
+/*変更予定*/
 .polygon1 {
   /* Polygon 1 */
   position: absolute;

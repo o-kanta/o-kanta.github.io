@@ -14,7 +14,7 @@
     <div id="wrap">
       <!-- header -->
       <header>
-        <div class="name"><a href="index.html">OK</a></div>
+        <div class="home_link"><a href="index.html">OK</a></div>
         <button id="open_menu" onclick="navOpen()">
           <div class="hum_line1"></div>
           <div class="hum_line2"></div>
@@ -38,22 +38,23 @@
         </div>
       </footer>
       <!-- /footer -->
+
+      <!-- nav -->
+      <nav id="nav_height">
+        <div class="home_link"><a href="index.html">OK</a></div>
+
+        <button id="close_menu" onclick="navClose()">
+          <div class="cross_line1"></div>
+          <div class="cross_line2"></div>
+        </button>
+
+        <ul class="menu_list">
+          <li><a href="profile/index.html">Profile</a></li>
+          <li><a href="product/index.html">Product</a></li>
+          <li><a href="account/index.html">Account</a></li>
+        </ul>
+      </nav>
+      <!-- /nav -->
     </div>
-
-    <nav id="nav_height">
-      <div class="name"><a href="index.html">OK</a></div>
-
-      <button id="close_menu" onclick="navClose()">
-        <div class="line1"></div>
-        <div class="line2"></div>
-      </button>
-
-      <ul class="menu_list">
-        <li><a href="index.html" class="home_link">Home</a></li>
-        <li><a href="profile/index.html">Profile</a></li>
-        <li><a href="product/index.html">Product</a></li>
-        <li><a href="account/index.html">Account</a></li>
-      </ul>
-    </nav>
   </body>
 </html>

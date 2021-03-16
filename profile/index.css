@@ -1,6 +1,23 @@
 @charset "utf-8";
 img {
+  position: absolute;
   width: 200px;
   height: 200px;
   border: 2px solid black;
+}
+
+h2 {
+  width: 100%;
+  margin: 1em auto;
+}
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 0.5em;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  vertical-align: top;
+  text-align: left;
 }

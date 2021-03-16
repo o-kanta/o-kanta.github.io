@@ -1,5 +1,7 @@
 @charset "utf-8";
-h2 {
-  margin: 5em 10em;
-  text-align: center;
+
+
+main h2 {
+  text-align: left;
+  padding-bottom: 300px;
 }
