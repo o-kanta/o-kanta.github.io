@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* main */
+input {
+  width: 100%;
+  line-height: 2;
+  padding: 0.2em 1em;
+  border: 2px solid black;
+}
+.form {
+  padding-bottom: 2em;
+}
