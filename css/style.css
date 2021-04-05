@@ -119,7 +119,7 @@ nav {
   background-color: #ffffff;
   overflow-x: hidden;
   transition: 0.5s;
-  z-index: 88888;
+  z-index: 101;
 }
 nav a {
   transition-duration: 0.2s;
