@@ -133,7 +133,7 @@ nav .menu_list a:hover {
 /* footer */
 .copyright {
   width: 100%;
-  font-size: 20px;
+  font-size: 1em;
   line-height: 56px;
   text-align: right;
   position: absolute; /*絶対位置*/
