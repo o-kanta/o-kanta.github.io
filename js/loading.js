@@ -1,7 +1,7 @@
-var time = new Date().getTime();
+const time = new Date().getTime();
 
 window.onload = function () {
-  var now = new Date().getTime();
+  const now = new Date().getTime();
   if (now - time <= 1000) {
     setTimeout(load, 1000 - (now - time));
     return;
