@@ -22,8 +22,13 @@ table {
 td,
 th {
   padding: 0.5em;
-  border-top: 1px solid #aaa;
-  border-bottom: 1px solid #aaa;
   vertical-align: top;
   text-align: left;
+}
+tr {
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+table {
+  min-width: 100%;
 }
