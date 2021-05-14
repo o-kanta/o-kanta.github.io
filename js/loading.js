@@ -1,16 +1,22 @@
 const time = new Date().getTime();
 
-window.onload = function () {
+const loadingAnimation = () => {
   const now = new Date().getTime();
-  if (now - time <= 1000) {
-    setTimeout(load, 1000 - (now - time));
+  if (now - time <= 500) {
+    setTimeout(load, 500 - (now - time));
     return;
   } else {
     load();
   }
+  const loading = document.getElementById("loading");
+  loading.classList.add("loaded");
 };
 
 function load() {
   const loading = document.getElementById("loading");
   loading.classList.add("loaded");
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  loadingAnimation();
+});

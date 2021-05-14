@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="index.css" />
-    <link rel="icon" type="image/png" href="img/LogoOKsquare.png" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link rel="icon" type="image/png" href="./img/LogoOKsquare.png" />
     <title>Home | okgwknt</title>
     <script src="./js/style.js"></script>
     <script src="./js/loading.js"></script>
+    <script src="./js/rain.js"></script>
   </head>
 
   <body>
@@ -17,11 +18,16 @@
       <div class="spinner">
         <div class="loader"></div>
       </div>
-      <!-- <p class="loading_text">Loading...</p> -->
     </div>
     <!-- /loading -->
 
     <div id="wrap">
+      <!-- background -->
+      <div class="rains">
+        <div class="rain"></div>
+      </div>
+      <!-- /background -->
+
       <!-- header -->
       <header>
         <div class="home_link"><a href="index.html">OK</a></div>
@@ -35,18 +41,12 @@
 
       <!-- main -->
       <main>
-        <!-- TODO: make osyarena home page -->
-
-        <div class="title">OKUGAWA KANTA</div>
+        <!-- <div class="title">OKUGAWA KANTA</div> -->
       </main>
       <!-- /main -->
 
       <!-- footer -->
-      <footer>
-        <div class="copyright">
-          <p>&copy; 2021, Kanta Okugawa</p>
-        </div>
-      </footer>
+      <footer></footer>
       <!-- /footer -->
 
       <!-- nav -->
@@ -59,11 +59,11 @@
         </button>
 
         <ul class="menu_list">
-          <li><a href="profile/index.html">Profile</a></li>
-          <li><a href="product/index.html">Product</a></li>
-          <li><a href="account/index.html">Account</a></li>
-          <li><a href="contact/index.html">Contact</a></li>
-          <li><a href="news/index.html">News</a></li>
+          <li><a href="./profile/index.html">Profile</a></li>
+          <li><a href="./product/index.html">Product</a></li>
+          <li><a href="./account/index.html">Account</a></li>
+          <li><a href="./contact/index.html">Contact</a></li>
+          <!-- <li><a href="./news/index.html">News</a></li> -->
         </ul>
       </nav>
       <!-- /nav -->
