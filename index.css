@@ -57,7 +57,7 @@ body {
 
 @keyframes falldown {
   0% {
-    transform: translate(0px, 0vh);
+    transform: translate(0px, -10vh);
   }
   100% {
     transform: translate(0px, 100vh);

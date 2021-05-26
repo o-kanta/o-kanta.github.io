@@ -1,16 +1,20 @@
 const createRains = () => {
   const rains = document.querySelector(".rains");
   const rain = document.querySelector(".rain");
-  const numberOfRains = 40;
+
+  // 雨粒生成
+  const numberOfRains = 50;
   for (let i = 0; i < numberOfRains; i++) {
     rains.appendChild(rain.cloneNode());
   }
+
   let elements = document.getElementsByClassName("rain");
-  let min = 1; // 最小値
-  let max = 30; // 最大値
+  // 落ちるスピード
+  let min = 5; // 最小値
+  let max = 15; // 最大値
   for (let i = 0; i < numberOfRains; i++) {
     let randomNum = Math.floor(Math.random() * (max + 1 - min)) + min;
-    let dropSpeed = "animation: falldown " + randomNum + "s infinite;";
+    let dropSpeed = "animation: ease-in " + randomNum + "s infinite falldown;";
     elements[i].setAttribute("style", dropSpeed);
   }
 };
